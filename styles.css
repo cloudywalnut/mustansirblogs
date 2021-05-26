@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  body{
+    background-color: blueviolet;
+    
+}
+nav{
+    background-color: rgb(111, 46, 136);
+    padding: 15px; 
+    display:flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+nav img{
+    height:70px;
+    width:90px;
+    cursor: pointer;
+}
+nav img:hover{
+    opacity:0.9;
+}
+
+nav  ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    color: cyan;
+    padding: 20px;
+}
+nav ul li:hover{
+    color:white;
+    background-color: rgb(113, 186, 228);
+    border-radius:10%;      
+ }
+
+ nav ul li a:hover {
+    color: white;
+}
+
+header h1{
+    font-family:"Neucha",sans-serif;
+    font-weight: 800;
+    font-size: 7vw;
+    text-align:center;
+    color:white;
+    margin-top:30px;
+}
+.image-gallery{
+    display:flex;
+    justify-content: center;
+     
+}  
+.image-gallery img{
+    height:35vw;
+    width:32vw;
+    padding:20px;
+    border-radius: 30%;
+}  
+.image-gallery img:hover{
+  height:50vw;
+  width:50vw;
+  cursor: pointer;
+
+}  
+header p{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 2vw;
+    text-align:center;
+    color:white;
+    margin:4vw;
+    margin-bottom: 6vw;
+}
+header p:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+footer{
+    background-color: burlywood;
+    height:18vw;
+    width:100%;
+}
+footer .logos{
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    top:4vw;  
+    
+}
+footer .logos img{
+    height:4vw;
+    width:4vw;
+    padding: 0.8vw;
+    
+}
+footer .logos img:hover{
+  opacity: 0.9;  
+}
+footer p{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 1.2vw;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    margin:4vw;
+}
+
+section{
+    background-color: cadetblue;
+    display: flex;
+    
+}
+section p{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 1.4vw;
+    text-align:center;
+    color:white;
+    margin-left: 10vw;
+    margin-top:3vw;
+    margin-right: 15vw;;
+}   
+section p:hover{
+    cursor: pointer;
+}
+section img{
+    height:28vw;
+    width:28vw;
+    margin-top:3vw;
+    margin-bottom:3vw;
+    margin-right: 10vw;    
+}
+section img:hover{
+    cursor: pointer;
+    opacity: 0.8;    
+}
+#a p{
+    margin-top: 3vw;
+    margin-bottom:3vw;
+    margin-right: 5vw;
+    margin-left:7vw;
+}
+#a img{
+    margin-left: 13vw;
+    margin-top:3vw;
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li a{
+       padding:10px; 
+       font-size: 15px;
+    }    
+    header h1{
+        font-size: 40px;
+    }
+    nav img{
+        height: 40px;
+        width:60px;
+    }
+}
